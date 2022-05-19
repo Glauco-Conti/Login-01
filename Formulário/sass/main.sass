@@ -1,0 +1,85 @@
+body
+    background-color: #9b9b9b
+
+/*  Form */
+#form-container
+    background-color:#ffffff
+    border-radius: 20px
+    box-shadow: 5px 10px 15px rgba(0,0 ,0 ,.2 )
+    margin: 20px auto
+    padding: 20px
+    
+   
+    h2
+        font-weight: 900
+        margin-bottom: 30px
+
+    a
+        color:#222
+        transition: .5s
+        &:hover
+            color: #6c63ff
+
+    form
+        padding-bottom: 10px
+
+    .form-control
+        border: none
+        border-bottom: 1px solid #ccc
+        border-radius: 0
+        &:focus
+            box-shadow: none
+    
+    .form-floating 
+        
+        .form-control:focus~label
+            color: #222
+
+        label
+            color: #9e9e9e
+        
+    input[type="submit"]
+        background-color: #6C63FF
+        border-color:  #6C63FF
+        &:active
+            color: #6C63FF
+            background-color: #ffffff00
+    
+    input[type="checkbox"]:checked
+        background-color: #6C63FF
+        border-color:  #6C63FF
+            
+@media(min-width: 768px)
+    #form-container
+        margin: 30px auto 
+        padding: 50px
+        
+
+.btn.btn-primary
+    width: 100%
+    margin-top: 25px
+
+@media(min-width: 768px)
+    .btn.btn-primary
+        width: auto
+        
+
+@media(max-width: 768px)
+    #img_mob
+        padding-top: 80px
+    
+
+/* img */
+
+.row.align-itens-center
+    align-content: center
+    height: 100%
+    padding: 75px 0
+
+#link-container
+    text-align: center
+    padding-top: 50px
+   
+
+    
+
